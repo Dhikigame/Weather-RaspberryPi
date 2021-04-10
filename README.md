@@ -20,6 +20,7 @@ Connect the speaker to the earphone jack as shown below and send the weather for
 * PHP
 * Shell Script
 * Open Jtalk
+* php-query
 * https://weather.tsukumijima.net/ (API)
 
 # Features
