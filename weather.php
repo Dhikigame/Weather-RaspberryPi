@@ -37,8 +37,7 @@ class Weather {
 
     function todayDescription(){
         // 天気の詳細
-        $weather = $this->arr->description->headlineText;
-        $weather .= $this->arr->description->bodyText;
+        $weather = $this->arr->description->bodyText;
         echo $weather;
     
         return $weather;
