@@ -4,12 +4,12 @@ $weather = new Weather();
 // メール送信
 mb_language("Japanese");
 mb_internal_encoding("UTF-8");
-require_once("./email.php");
-$to = receive_email();
-$subject = $weather->todayWeather();
-$message = $weather->todayDescription();
-$headers = "From: " . send_email();
-mb_send_mail($to, $subject, $message); 
+//require_once("./email.php");
+//$to = receive_email();
+//$subject = $weather->todayWeather();
+//$message = $weather->todayDescription();
+//$headers = "From: " . send_email();
+//mb_send_mail($to, $subject, $message); 
 
 // 1回目
 $txt = $weather->todayWeather();
